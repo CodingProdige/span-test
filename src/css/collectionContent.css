@@ -1,0 +1,43 @@
+#carousel-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  padding: 1rem;
+}
+#carousel {
+  display: grid;
+  grid-template-columns: repeat( 12, minmax(calc(33% - 0.5rem), 1fr) );
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+
+  width: 100%;
+}
+
+.slide {
+  opacity: 1;
+  width: 100%;
+  padding-bottom: 56%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.slide.active {
+  border: 3px solid var(--vivid_sky_blue);
+}
+.slide:focus {
+  border: 3px solid var(--vivid_sky_blue);
+}
+.slide:hover {
+  border: 3px solid var(--vivid_sky_blue);
+}
