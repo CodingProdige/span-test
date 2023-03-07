@@ -1,6 +1,7 @@
 #carousel-container {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
 
@@ -12,31 +13,48 @@
   padding: 1rem;
 }
 #carousel {
-  display: grid;
-  grid-template-columns: repeat( 12, minmax(calc(33% - 0.5rem), 1fr) );
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
 
   width: 100%;
 }
+.image-in-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.slide {
-  opacity: 1;
   width: 100%;
-  padding-bottom: 56%;
+  height: 70%;
+}
+.image-in-view {
+  width: 80%;
+  padding-bottom: 46%;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide {
+
+  opacity: 1;
+  padding-right: 25%;
+  padding-bottom: 15%;
 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
-  border: 3px solid rgba(0, 0, 0, 0);
+  border: none;
 }
 
 .slide.active {
   border: 3px solid var(--vivid_sky_blue);
+  outline: none;
 }
 .slide:focus {
-  border: 3px solid var(--vivid_sky_blue);
+  outline: none;
 }
 .slide:hover {
   border: 3px solid var(--vivid_sky_blue);
