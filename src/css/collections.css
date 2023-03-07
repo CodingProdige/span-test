@@ -22,6 +22,7 @@
 
     overflow: hidden;
     cursor: pointer;
+    outline: none;
 }
 /* List Item FOCUSED */
 .collections-list-item:focus {

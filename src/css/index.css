@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
+    /* Color Pallet Link: https://coolors.co/000000-1f1f1f-393d41-53d8fb-ee7b30 */
     --black: #000;
     --eerie_black: #1F1F1F; 
     --onyx: #393D41;
