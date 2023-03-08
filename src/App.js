@@ -1,4 +1,3 @@
-import MainCarousel from "./components/carousel";
 import UnsplashCollection from "./components/collections";
 
 

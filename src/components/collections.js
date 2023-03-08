@@ -113,6 +113,23 @@ function UnsplashCollection() {
                 ))
               }
             </ul>
+            <div className='sidebar-credits'>
+              <p className='sidebar-credits-p1'>Assignment completed by<br/>Dillon Jurgens</p>
+              <div className='sidebar-links-list'>
+                <a href='https://www.linkedin.com/in/dillon-jurgens-92979320b/' target='_blank' rel="noreferrer">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href='https://github.com/CodingProdige' target='_blank' rel="noreferrer">
+                  <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a href='https://twitter.com/DillonJurgens' target='_blank' rel="noreferrer">
+                  <i class="fa-brands fa-square-twitter"></i>
+                </a>
+                <a href='https://www.facebook.com/dillon.jurgens.official' target='_blank' rel="noreferrer">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+              </div>
+            </div>
         </div>
         
         <div className='collections-carousel-container'>
